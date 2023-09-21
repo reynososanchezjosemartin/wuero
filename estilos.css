@@ -1,0 +1,29 @@
+body{
+    font-size: 3,6rem;
+
+    
+}
+table{
+border: 1px solid black;
+border-collapse: collapse;
+margin: auto;
+}
+
+
+td{
+    padding: 1rem; 
+    border:1px solid black ;
+}
+thead{
+    background-color: black;
+    color:white;
+}
+tbody td:first-child{
+    background-color: rgb(11, 173, 173);
+}
+tbody tr:nth-child(2n){
+    background-color: rgb(20, 124, 150);
+}
+tbody tr:nth-child(2n+1){
+    background-color: cornflowerblue;
+}
